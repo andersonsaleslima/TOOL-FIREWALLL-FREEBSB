@@ -14,7 +14,7 @@ do
 	echo 1- Listar regras IPFW
 	echo 2- Adicionar regra IPFW 
 	echo 3- Deletar regra IPFW
-	echo 4- Moficar regras manualmente
+	echo 4- Modificar regras manualmente
 	echo -n "Opcao: "
 
 	read OPCAO
