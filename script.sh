@@ -29,32 +29,3 @@ tmux send-keys -t 1 C-z "./menu.sh $INTERFACE" enter
 
 tmux -2 attach-session -d
 
-
-
-
-#############################################################
-#
-#colums=$(tput cols)
-#lines=$(tput lines)
-#
-# definiacao
-#distance_higher=1
-#distance_left=2
-#
-#dwidth=$(( $colums - 1 - $(( $distance_left * 2 )) ))
-#dheight=$(( $lines - 2 - $(($distance_higher * 2)) ))
-#
-#width2=10
-#
-#reduce_height=$(($dheight - 10))
-#
-#echo "$lines $colums  $distance_higher $distance_left $dheight $dwidth"
-#
-#menu.sh
-#
-#dialog --title "Firewall" --menu "Escolha opcao" 0 0 0 \
-#	1 'TCPDUMP' \
-#	2 'MODIFICAR REGRA' \
-#	0 'SAIR'
-#
-# dialog --keep-window --begin $distance_higher $distance_left --tailbox /root/script/log.txt $reduce_height $dwidth 
