@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo "Instaladno TCPDump"
+pkg install -y tcpdump
+
 if (( $? != 0 ))
 then
         echo "Pacote Tcpdump não instalad"
