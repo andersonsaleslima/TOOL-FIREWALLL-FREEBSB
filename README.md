@@ -16,7 +16,7 @@ OBS.: Exemplo de formato de rede "192.168.0.0/24"
 
 4- Tela de exibição da aplicação
 
-	![tool screen](img/tool-screen.PNG)
+![tool screen](img/tool-screen.PNG)
 
 ## Arquivo "install-dependeis.sh"
 
