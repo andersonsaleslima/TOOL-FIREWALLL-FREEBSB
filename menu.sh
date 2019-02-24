@@ -67,7 +67,7 @@ do
 			read port_destiny		
 			clear
 
-			echo "Fluxo do trafego(in/out): "
+			echo -n "Fluxo do trafego(in/out): "
 			read FLOW
 
 			ipfw add $number $RULE  $protocol from $net_origin $port_origin to $net_destiny $port_destiny $FLOW via $INTERFACE ;;
