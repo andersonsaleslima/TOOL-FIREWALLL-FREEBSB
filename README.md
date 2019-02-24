@@ -1,7 +1,21 @@
+## Inicializar
+
+1- Adicionar permissoes de execuxao para arquivos ".sh"
+
+	chmod +x *.sh
+
+2- Comecar instalando dependencias
+
+	./install-dependencies.sh
+
+Inicializar aplicação
+
+	./script.sh
+
 ## Arquivo "install-dependeis.sh"
 
-	Executar arquivo para isntalação dos progrmas de dependênciaplicaacao.
-	Instalação de utilitário tcpdump e tmux
+Executar arquivo para isntalação dos progrmas de dependênciaplicaacao.
+Instalação de utilitário tcpdump e tmux
 
 ## Arquivo script.sh
 
