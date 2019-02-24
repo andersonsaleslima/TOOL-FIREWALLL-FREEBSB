@@ -3,7 +3,7 @@ pkg install -y tcpdump
 
 if [ $? -ne 0 ]
 then
-        echo "Pacote Tcpdump não instalad"
+        echo "Pacote Tcpdump não instalado"
         exit
 fi
 
@@ -12,6 +12,6 @@ pkg install -y tmux
 
 if [ $? -ne  0 ]
 then
-        echo "Pacote tmux não instaldo"
+        echo "Pacote tmux não instalado"
         exit
 fi
