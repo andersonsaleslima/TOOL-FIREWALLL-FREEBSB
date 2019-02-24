@@ -1,3 +1,7 @@
+## Cenário Testado
+
+	- Sistema Operacioanl: FreeBSD 11.2
+
 ## Inicializar
 
 1- Adicionar permissoes de execuxao para arquivos ".sh"
