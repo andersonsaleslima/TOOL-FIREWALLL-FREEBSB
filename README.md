@@ -8,9 +8,15 @@
 
 	./install-dependencies.sh
 
-Inicializar aplicação
+3-Inicializar aplicação
 
-	./script.sh
+	./script.sh <interfaace> <net|host>
+
+OBS.: Exemplo de formato de rede "192.168.0.0/24"
+
+4- Tela de exibição da aplicação
+
+	
 
 ## Arquivo "install-dependeis.sh"
 
