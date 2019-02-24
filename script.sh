@@ -6,11 +6,6 @@ IP_REDE=$2
 
 echo "Ativando IPFW com politica DEFAULT ALLOW ALL com ID 65000"
 kldload ipfw && ipfw -q add 65000 allow all from any to any
-if [ $? -ne 0 ]
-then
-        echo "Erro ao Ativar IPFW com politica DEFAULT ALLOW ALL"
-	exit
-fi
 
 # Criacao de painel
 tmux new-session -d -s monitor_IPFW
